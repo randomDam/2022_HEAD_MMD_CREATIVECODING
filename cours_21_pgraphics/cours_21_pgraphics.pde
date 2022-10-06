@@ -21,5 +21,4 @@ void draw(){
 
   fill(255,255,0);
   rect(mouseX+100,mouseY,40,40);
- 
 }
