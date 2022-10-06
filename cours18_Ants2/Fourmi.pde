@@ -32,10 +32,13 @@ class Ant {
     for (int i=0; i<ants.length; i++) {
       if (ants[i]!=this) {
         //sqrt(pow(x-ants[i].x,2)+pow(y-ants[i].y,2))
-        if (dist(x, y, ants[i].x, ants[i].y)<100) {
-
-          strokeWeight(3);
-          stroke(0, 40);
+        float dist = dist(x, y, ants[i].x, ants[i].y);
+        if (dist<100) {
+          
+          float e = map(dist,0,100,12,0);
+          strokeWeight(e);
+          float v = map(dist,0,100,255,0);
+          stroke(0, v);
           line(x, y, ants[i].x, ants[i].y);
         }
       }
