@@ -9,8 +9,8 @@ String [] sentences={
 PFont typo;
 
 void setup(){
-   //size(800,800,P2D);
-   fullScreen(P2D);
+   size(800,800,P2D);
+   //fullScreen(P2D);
    typo = loadFont("CenturySchL-Bold-48.vlw");
 }
 
