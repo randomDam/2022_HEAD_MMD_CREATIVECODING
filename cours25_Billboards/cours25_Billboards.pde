@@ -7,7 +7,7 @@ Etoile [] etoiles = new Etoile[1000];
 
 
 void setup() {
-  size(800, 800, P3D);
+  size(1200, 1000, P3D);
   cam = new PeasyCam(this, 800);
   part = loadImage("particules.png");
   for (int i=0;i<etoiles.length;i++){
@@ -16,10 +16,13 @@ void setup() {
   hint(ENABLE_DEPTH_SORT);
 }
 
+float ang=0;
+
 void draw() {
   background(0);
   
   pushMatrix();
+  
   noStroke();
   translate(0, 0, 0);
   fill(255, 0, 0);

@@ -9,11 +9,11 @@ class Etoile{
   }
 
   void draw(){
-    pushMatrix();
+    simu.pushMatrix();
     
-    translate(pos.x,pos.y,pos.z);
+    simu.translate(pos.x,pos.y,pos.z);
     drawParticle(siz,ima);
-    popMatrix();
+    simu.popMatrix();
   }
 
 }
