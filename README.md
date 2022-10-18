@@ -1,8 +1,8 @@
 # 2022_HEAD_MMD_CREATIVECODDING
 
-## information pour le rendu
+## informations
 
-écran 1 test pour novembre le rendu de novembre
-- 180 degrés
-- diamètre: 8 m
-- résolution: 4500 x 1080
+### May 2023
+The space is a 22 m diameter tube
+24 planes.
+The resolution will be 15000 px by 2000 px
